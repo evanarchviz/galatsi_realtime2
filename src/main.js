@@ -24,8 +24,8 @@ let pitch = 0;
 
 const playerHeight = 1.7;
 const playerRadius = 0.35;
-const speed = 4.5;
-const vrSpeed = 2.2;
+const speed = 2;
+const vrSpeed = 2;
 const stepHeight = 0.2;
 
 let playerBaseY = 0;
@@ -326,10 +326,10 @@ async function init(){
                 ) return;
 
                 yawObject.rotation.y -=
-                    e.movementX * 0.002;
+                    e.movementX * 0.004;
 
                 pitch -=
-                    e.movementY * 0.002;
+                    e.movementY * 0.004;
 
                 pitch = Math.max(
                     -Math.PI / 2,
