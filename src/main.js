@@ -225,7 +225,7 @@ function processModel(root) {
                 transmission: 1,
                 transparent: true,
                 opacity: 0.15,
-                roughness: 0.2,
+                roughness: 0.5,
                 metalness: 0,
                 thickness: 0,
                 ior: 1.45,
